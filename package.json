@@ -6,6 +6,9 @@
     ".": "./lib/index.js",
     "./lib/*": "./lib/*.js"
   },
+  "engines": {
+    "node": ">16.14.0 <17"
+  },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@babel/plugin-proposal-decorators": "^7.16.4",
