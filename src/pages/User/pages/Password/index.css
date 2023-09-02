@@ -1,0 +1,14 @@
+.password_load>ul>li>p{
+    width: 100px;
+    display: inline;
+}
+.password_load>ul>li{
+    margin-bottom: 50px;
+    width: 300px;
+}
+.password_load>ul>li>input{
+    float: right;
+}
+.password_load>ul>li>button{
+    margin-left: 100px;
+}

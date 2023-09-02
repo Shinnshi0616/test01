@@ -1,0 +1,218 @@
+/* .message_info{
+    position: relative;
+    min-height: 1000px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 100%) ;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+} */
+.message_info_aa{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 100%) ;
+}
+.message_center{
+    width: 1300px;
+    min-height: 1000px;
+    background: rgba(255,255 ,255 ,0.93);
+    position: relative;
+    top: 100px;
+    left: 353px;
+}
+
+
+/* 内容 */
+.message_right_title{
+    height: 30px;
+    font-size: 23px;
+    font-weight: 900;
+    margin-left: 20px;
+    /* line-height: 20px; */
+}
+.message_li{
+    height: 700px;
+    width: 1300px;
+    /* border: 1px solid black; */
+    margin-bottom: 2px;
+    position: relative;
+}
+.message_left{
+    width: 250px;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background: rgb(224, 221, 221);
+}
+
+.message_username{
+    text-align: center;
+    margin-top: 3px;
+}
+.message_user_img{
+    margin-left: 30px;
+    /* margin-right: 10px; */
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+.message_right{
+    position: absolute;
+    right: 0;
+    width: 1050px;
+    height: 100%;
+    /* background: slateblue; */
+}
+.message_ul>.message_li:nth-of-type(1)>.message_right>.reply_mes{
+    display: none;
+}
+.message_right_time{
+    margin-left: 10px;
+    border-top: 1px dashed rgba(0,0 ,0 ,0.1);
+    border-bottom: 1px dashed rgba(0,0 ,0 ,0.1);
+}
+
+.message_right_p{
+    width: 99%;
+    /* height: 80%; */
+    background: transparent;
+    resize:none;
+    border: none;
+    overflow:hidden;
+    margin-left: 10px;
+}
+
+.reply_mes_xq>textarea,.message_right_p:focus{
+    outline: none;
+}
+
+.reply_mes{
+    float: right;
+    margin-right: 30px;
+}
+
+.reply_mes_xq{
+    width: 1000px;
+    height: 300px;
+    background: rgba(172, 170, 170, 0.822);
+    position: relative;
+    top: 32px;
+    display: none;
+}
+.reply_show{
+    display: block;
+}
+
+
+
+.reply_mes_xq_li{
+    width: 1000px;
+    height: 50px;
+    line-height: 45px;
+    border-bottom: 1px dashed gray;
+    position: relative;
+    /* left: 0px; */
+    /* float: left; */
+}
+.reply_msg_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    /* float: left; */
+}
+.reply_mes_xq_li>p{
+    /* float: left; */
+}
+.reply_mes_xq_name{
+    width: 70px;
+    position: absolute;
+    left: 50px;
+}
+.reply_mes_xq_reply{
+    position: absolute;
+    left: 100px;
+}
+.reply_mes_xq_time{
+    position: absolute;
+    right: 0;
+}
+.reply_mes_xq>textarea{
+    width: 750px;
+    height: 40px;
+    resize:none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.reply_mes_xq>button{
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+
+/* 底部 */
+.publish_message{
+    width: 1300px;
+    background: rgba(255,255 ,255 ,0.93);
+    height: 300px;
+    margin-top: 160px;
+    margin-left: 353px;
+}
+
+.publish_message_tu{
+    width: 250px;
+    height: 100%;
+    float: left;
+    background: skyblue;
+    /* display: inline-block; */
+}
+.publish_message_content{
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 600px;
+    height: 200px;
+    resize:none;
+}
+.publish_message_button{
+    /* display: block; */
+    position: absolute;
+    bottom: 0px;
+    left:625px;
+}
+
+/* 购买内容 */
+.Pay_div{
+    width: 1050px;
+    height: 50px;
+    /* background: skyblue; */
+    position: absolute;
+    top: 600px;
+    right:  0px;
+    line-height: 50px;
+    /* float: left; */
+    /* display: inline-block; */
+}
+.Pay_p{
+    min-width: 130px;
+    margin-left: 68px;
+    margin-bottom: 10px;
+    margin-top: -64px;
+}
+.Pay_button{
+    /* position: absolute;
+    left: 11px;
+    top: 10px; */
+    /* margin-left: 148px; */
+    /* margin-top: -37px; */
+    /* margin-bottom: 10px; */
+}
+.message_medal_img_div{
+    margin-right: 20px;
+    float: left;
+}
+.mesg_collect{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    /* width: 100px; */
+}

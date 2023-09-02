@@ -1,0 +1,135 @@
+.clock{
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3 ) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+.clock_aa{
+    width: 100%;
+    height: 1000px;
+}
+.clock_sign{
+    width: 1200px;
+    height: 200px;
+    background: rgba(255,255 ,255 ,0.93);
+    position: relative;
+    top: 70px;
+    left: 353px;
+}
+.clock_sign_left{
+    width: 250px;
+    height: 200px;
+    background: white;
+}
+.clock_sign_right_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.clock_sign_right_name{
+    margin-left: 15px;
+}
+.clock_sign_img{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 190px;
+    height: 80px;
+    background: url(../../img/come.jpg) 200px 154px;
+}
+.clock_sign_img2{
+    transition: all 1.5s;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 190px;
+    height: 80px;
+    background: url(../../img/come.jpg) 200px 228px;
+}
+.clock_sign_right{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 950px;
+    height: 200px;
+    background-color: rgba(236, 234, 231, 0.452);
+}
+.clock_sign_title{
+    width: 700px;
+    height: 80px;
+    /* border: 1px solid black; */
+    line-height: 80px;
+}
+.clock_sign_title>li{
+    float: left;
+    margin-left: 70px;
+}
+.clock_sign_title>li>p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.clock_sign_data{
+    width: 700px;
+    height: 40px;
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 20px;
+    /* margin-bottom: 30px; */
+    /* line-height: 80px; */
+}
+.clock_sign_data>li{
+    float: left;
+    margin-left: 103px;
+}
+.clock_sign_data>li>p>span{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(55, 105, 214);
+}
+
+
+
+
+.clock_sign_log{
+    width: 1200px;
+    height: 600px;
+    background: rgba(255,255 ,255 ,0.93);
+    position: relative;
+    top: 100px;
+    left: 353px;
+}
+.clock_sign_log_title{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px dashed black;
+    /* border: 1px solid black; */
+}
+.clock_sign_log_title>li:nth-of-type(1){
+    float: left;
+    margin-left: 0;
+}
+.clock_sign_log_title>li{
+    float: right;
+    margin-left:115px;
+    margin-right: 10px;
+    width: 100px;
+}
+.clock_sign_log_title>li>p{
+    text-align: center;
+}
+.clock_sign_log_xq{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px dashed black;
+}
+.clock_sign_log_xq>li:nth-of-type(1){
+    float: left;
+    margin-left: 0;
+}
+.clock_sign_log_xq>li{
+    float: right;
+    margin-left: 115px;
+    margin-right: 10px;
+    width: 100px;
+}
+.clock_sign_log_xq>li>p{
+text-align: center;
+}

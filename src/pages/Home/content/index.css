@@ -1,0 +1,214 @@
+
+.root_content_aa{
+    height: 1780px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 100%) ;
+
+}
+.Posts_list{
+    /* margin-top: 20px; */
+    width: 890px;
+    height: 1400px;
+    background: rgba(255,255 ,255 ,0.8);
+    position: relative;
+    left: 353px;
+    top: 20px;
+}
+.Posts_list_top{
+    width: 890px;
+    height: 50px;
+    line-height: 50px;
+}
+.Posts_list_top:hover{
+    background: rgba(255,255 ,255 ,0.7);
+}
+.Posts_list_top_left{
+    /* float: left; */
+    position: relative;
+    width: 50%;
+    height: 50px;
+}
+.Posts_list_icon_new{
+    width: 60px;
+}
+.Posts_list_icon_new>p{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+.Posts_list_icon_hot{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    left: 90px;
+    top: -50px;
+}
+.Posts_list_icon_hot>p{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+.Posts_list_ul{
+    width: 890px;
+    /* height: 69px; */
+    margin-top: 10px;
+}
+.Posts_list_li{
+    position: relative;
+    height: 69px;
+    /* border: 1px solid black; */
+}
+.Posts_list_li:hover{
+    background: rgba(255,255 ,255 ,0.7);
+}
+.Posts_list_tou{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50% 50%;
+    overflow: hidden;
+}
+.Posts_list_title{
+    position: absolute;
+    left: 65px;
+    top: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 600px;
+    white-space:nowrap; 
+    text-overflow:ellipsis; 
+    overflow:hidden;
+}
+.Posts_list_msg{
+    width: 824px;
+    height: 30px;
+    position: relative;
+    /* background: red; */
+    /* border: 1px solid black; */
+    top: 27px;
+    left: 66px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.Posts_list_name{
+    /* position: absolute;
+    left: 0px;
+    top: 3px; */
+    /* border-bottom: 1px solid black; */
+    display: inline;
+    margin-right: 10px;
+    /* font-size: 12px; */
+}
+.Posts_list_l{
+    /* position: absolute;
+    left: 60px;
+    top: 1px; */
+    /* width: 3px; */
+    display: inline;
+    margin-left: 10px;
+    /* margin-bottom: 1px; */
+    
+}
+.Posts_list_time{
+    /* position: absolute;
+    left: 70px;
+    top: 3px; */
+    display: inline;
+    margin-left: 10px;
+}
+.Posts_list_time>span{
+    margin-left: 10px;
+    color: rgb(25, 64, 236);
+}
+.Posts_list_ll{
+    /* position: absolute;
+    left: 286px;
+    top: 8px; */
+    margin-left: 10px;
+    display: inline;
+}
+.Posts_list_relpy{
+    float: right;
+    display: inline;
+    margin-right: 20px;
+}
+.publish_posts{
+    position: relative;
+    left: 353px;
+    width: 890px;
+    height: 300px;
+    background: rgba(255,255 ,255 ,0.8);
+}
+.publish_posts_tie{
+    margin-left: 20px;
+    line-height: 45px;
+    /* margin-top: 20px; */
+    height: 30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.publish_posts_title{
+    width: 300px;
+    position: absolute;
+    left: 30px;
+    top: 70px;
+}
+.publish_posts_content{
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    width: 600px;
+    height: 200px;
+    resize:none;
+}
+.publish_posts_button{
+    position: absolute;
+    right: 170px;
+    bottom:0px;
+}
+.chajian{
+    width: 300px;
+    height: 40px;
+    background: gray;
+    position: absolute;
+    right: 260px;
+    top: 60px;
+}
+.chajian>img{
+    margin-right: 10px;
+}
+.fufei{
+    position: absolute;
+    display: none;
+    top: -246px;
+    right: 229px;
+    width: 300px;
+    height: 300px;
+    z-index: 999;
+    background: white;
+    box-shadow: gray 1px 1px;
+}
+.fufei_shoujia{
+    width: 30px;
+    
+}
+.pay_tontent{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    word-break:break-all
+}
+
+.content_list2{
+    z-index: 0.1;
+    position: relative;
+    top: -1685px;
+    right: -1300px;
+    width: 300px;
+    height: 1000px;
+}

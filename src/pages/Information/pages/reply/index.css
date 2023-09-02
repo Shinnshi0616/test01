@@ -1,0 +1,25 @@
+.reply_log{
+    width: 1020px;
+    height: 60px;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+}
+.reply_log>a{
+    display: block;
+    margin-bottom: 10px;
+}
+.reply_log>a>p{
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+    /* color: rgb(83, 156, 185); */
+}
+.nosee{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    float: right;
+    /* position: absolute; */
+}

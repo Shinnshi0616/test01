@@ -1,0 +1,66 @@
+.user_setting{
+    width: 100%;
+    height: 1000px;
+}
+.user_setting_aa{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 100%) ;
+}
+.user_setting_box{
+    width: 1200px;
+    height: 600px;
+    background: rgba(255,255 ,255 ,0.93);
+    position: relative;
+    top: 100px;
+    left: 353px;
+}
+.user_setting_left{
+    position: absolute;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background: skyblue;
+}
+.user_setting_title{
+    display: block;
+    width: 100%;
+    height: 6%;
+    /* border: 1px solid beige ; */
+    font-size: 20px;
+    font-weight: 900;
+}
+.user_setting_title>p{
+    line-height: 40px;
+    margin-left: 10px;
+}
+.user_setting_ul{
+    width: 100%;
+    height: 94%;
+    border-top: 1px dashed black;
+    /* border: 1px solid beige ; */
+}
+.user_setting_ul>li{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    /* border: 1px solid beige ; */
+    /* vertical-align:middle; */
+    line-height: 112px;
+}
+.user_setting_ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.user_setting_ul>li>a:hover{
+    color: white;
+    background: rgba(5, 5, 5, 0.822);
+}
+
+
+.user_setting_right{
+    position: absolute;
+    right: 0;
+    width: 85%;
+    height: 100%;
+    /* background: gray; */
+}

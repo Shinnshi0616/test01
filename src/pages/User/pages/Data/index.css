@@ -1,0 +1,66 @@
+.User_data_ul>li>p{
+    width: 100px;
+}
+.User_data_ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.User_data_ul>li{
+    /* display: inline; */
+    width: 100%;
+    height: 90px;
+    float: left;
+    line-height: 90px;
+    text-align: center;
+}
+.User_data_ul>li>p{
+    float: left;
+}
+.User_data_sex{
+    /* position: relative; */
+    position: absolute;
+    top: 123px;
+    left: 130px;
+}
+
+.User_data_ul>li>input{
+    width: 250px;
+    height: 30px;
+    
+}
+.User_data_trueName{
+    position: absolute;
+    top: 213px;
+    left: 130px;
+}
+.User_data_year{
+    position: absolute;
+    top: 303px;
+    left: 130px;
+}
+.User_data_month{
+    position: absolute;
+    top: 303px;
+    left: 185px;
+}
+.User_data_day{
+    position: absolute;
+    top: 303px;
+    left: 225px;
+}
+.user_data_place{
+    position: absolute;
+    top: 393px;
+    left: 130px;
+}
+.user_data_sign{
+    position: absolute;
+    top: 483px;
+    left: 130px;
+}
+.User_data_show{
+    float: right;
+    /* line-height: 90px; */
+    margin-top: 32px;
+}

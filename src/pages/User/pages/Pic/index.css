@@ -1,0 +1,50 @@
+.setting_img{
+    width: 120px;
+    height: 120px;
+    /* display: block; */
+}
+.setting_img_bg{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background: url('../../../../portrait/index.png');
+}
+.setting_img_bg>.mask{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(64, 224, 208, 0.356);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.setting_img_bg>img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.setting_img_bg_smell{
+    position: relative;
+    left: 520px;
+    top: -293px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.setting_img_bg_smell>img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* margin: auto; */
+}

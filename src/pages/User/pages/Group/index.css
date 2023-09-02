@@ -1,0 +1,26 @@
+.user_medal{
+    width: 184px;
+    height: 150px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: rgba(189, 183, 183, 0.219);
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.user_medal>Buttonn{
+    position: absolute;
+    bottom: 0;
+}
+.Wear_medal{
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+}
+.uninstall_medal{
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}

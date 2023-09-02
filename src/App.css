@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    width: 100%;
+    height: 100%;
+} */
+ul{
+    list-style: none;
+}
+a{
+    color: black;
+}
+#nav{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    box-shadow: 1px 1px gray    ;
+    /* z-index: 999; */
+}
+.navList{
+    /* float: left; */
+    position: absolute;
+    width: 1300px;
+    height: 83px;
+    left: 450px;
+    display: block;
+
+    /* margin: 0 auto; */
+    
+}
+.navList>li{
+    width: 80px;
+    float: left;
+    line-height: 83px;
+    background: white;
+    text-align: center;
+}
+.navList>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+.cur{
+    color: #6ad1dd;
+    border-bottom: 4px solid #6ad1dd;
+}
+.navList>.Sear>input{
+    /* border: 1px solid black; */
+    transition: all 1s ease;
+    width: 0px;
+    display: none;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    right: 390px;
+    bottom: 31px;
+    /* line-height: 85px; */
+}
+.search{
+    position: absolute;
+    right: 370px;
+    line-height: 85px;
+    /* transition: transform 1s ease; */
+}
+
+.user_img{
+    width: 240px;
+    height: 85px;
+    position: absolute;
+    right: 0px;
+    line-height: 85px;
+    text-align: center;
+}
+.user_app_img{
+    border-radius: 50%;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left:  15px;
+    top: 20px;
+}
+.user_img:hover>.user_info{
+    display: block;
+}
+.sign_a{
+    position: absolute;
+    left: 100px;
+}
+.user_info{
+    display: none;
+    position: absolute;
+    top: 85px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+    z-index: 999;
+}
+.user_info>a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+.sign{
+    width: 240px;
+    height: 85px;
+    position: absolute;
+    right: 0px;
+    line-height: 85px;
+}
+.sign:hover{
+
+}
+.sign>a{
+    /* display: block; */
+    float: right;
+    width: 80px;
+    height: 85px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.navList>img{
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    top: 30px;
+}
+.red_reply_msg{
+    margin-top: 20px;
+    display: inline-block;
+    background: rgba(255, 0, 0, 0.349);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -17px;
+    right: -32px;
+}
+.red_reply_msg>p{
+    width: 10px;
+    height: 10px;
+    color: black;
+    position: absolute;
+    left: 4px;
+    right: 0;
+    top: -34px;
+    bottom: 0;
+}

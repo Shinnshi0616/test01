@@ -1,0 +1,118 @@
+.admin_home{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* border: 10px solid black; */
+}
+.admin_home_div{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    border-bottom: 1px dashed black;
+}
+.admin_home_lb_p{
+    font-size: 20px;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+.admin_home_lb_img{
+    width: 316px;
+    height: 200px;
+}
+.admin_loop_box{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    left: -25px;
+}
+.admin_loop{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+}
+.admin_loop_delete{
+    text-align: center;
+    position: absolute;
+    left:  10px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+}
+.admin_notice{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    border-bottom: 1px dashed black;
+}
+.admin_home_notice_p{
+    font-size: 20px;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+.admin_horn{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 410px;
+    border-bottom: 1px dashed black;
+}
+.admin_home_horn_p{
+    font-size: 20px;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+.admin_area_left{
+    width: 50%;
+    height: 448px;
+    position: absolute;
+    left: 0px;
+    top: 663px;
+    border-bottom: 1px dashed black;
+    border-right:1px dashed black ;
+}
+.changeimgshow{
+    transition: all 2s;
+    display: none;
+    width: 300px;
+    height: 0px;
+    position: absolute;
+    left: 100px;
+    top: 125px;
+    background: skyblue;
+    border: 1px solid black;
+}
+.admin_home_model_img{
+    width: 298px;
+    height: 245px;
+}
+.changeimgshow_button{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.admin_area_box_img{
+    width: 100px;
+    height: 100px;
+}
+
+.admin_area_right{
+    width: 50%;
+    height: 448px;
+    position: absolute;
+    right:  0px;
+    top: 663px;
+    border-bottom: 1px dashed black;
+    border-right:1px dashed black ;
+}
+.admin_home_model_img2{
+    width: 100px;
+    height: 100px;
+}
